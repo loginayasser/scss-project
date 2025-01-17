@@ -1,0 +1,127 @@
+/*page 1 */
+#iconsection {
+  padding: 100px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+#iconsection h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.icondiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.icondiv > div {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.icondiv > div:hover a {
+  text-decoration: underline;
+}
+.icondiv i {
+  font-size: 25px;
+  color: #4a5568;
+  background-color: rgba(226, 227, 227, 0.8078431373);
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.icondiv a {
+  text-decoration: none;
+  color: #2d3748;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*page 2 */
+.servicebook {
+  padding: 50px 13px;
+  margin: 16px 96px;
+  width: 1000px;
+}
+.servicebook .servicetext {
+  position: relative;
+  padding-bottom: 20px;
+  width: 1000px;
+}
+.servicebook .servicetext h1 {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  display: inline-block;
+}
+.servicebook .servicetext h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  bottom: 15px;
+}
+.servicebook .servicetext h3:hover {
+  text-decoration: underline;
+}
+.servicebook .servicephoto {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  width: 1000px;
+}
+.servicebook .servicephoto .grid {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.servicebook .servicephoto .grid .h3 {
+  position: absolute;
+  top: 240px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+}
+.servicebook .servicephoto .grid .cap {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: auto;
+}
+.servicebook .servicephoto .grid .cap span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#book {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 100px;
+  padding: 10px 20px;
+  margin: auto;
+  font-size: 12px;
+}
+#book:hover {
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
